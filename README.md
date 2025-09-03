@@ -110,7 +110,7 @@ This activity uses the following libraries:
 The output is as follows:
 
 <p align="center">
-  <img src="image_url_or_path" width="300" />
+  <img src="https://github.com/gelsiiiella/lpptr/blob/main/output.png?raw=true" width="1000" />
 </p>
 
 

@@ -15,7 +15,7 @@
 <function>::= "int main () {" [<assignment> | <statements> | <return statement>]
 <assignment>::= <type> <expression> ";"
 <type>::= "int" | "float" | "bool" | "string"
-<statements>::= <statement>
+<statements>::= {<statement>}
 <statement>::= ["if" <condition>"{" <expression> ";" "}"| "else if" <condition> "{" <expression> ";" "}" | "else" "{" <expression> "}"]
 <output>::=  "cout" "<<" <string> "<<" "endl" ";"
 <expression>::= [<arithmetic> | <output>]
